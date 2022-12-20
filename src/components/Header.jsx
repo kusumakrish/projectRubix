@@ -7,35 +7,35 @@ const Header = () => {
             <div className="nav">
             <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    {/* <a class="navbar-brand" href="#">Navbar</a> */}
+    {/* <p class="navbar-brand">Navbar</p> */}
     {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button> */}
     <div  id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">Home</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}}>Home</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">services</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}}>services</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">products</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}}>products</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">Ai internship</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}} >Ai internship</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">career</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}} >career</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">Bolg</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}} >Bolg</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">About</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}}>About</p>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page"style={{color:"white"}} href="#">Contact</a>
+          <p class="nav-link active" aria-current="page"style={{color:"white"}}>Contact</p>
         </li>
         
       </ul>
