@@ -1,17 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
-import axios from "axios";
+// import { useEffect } from 'react';
+// import axios from "axios";
 
 
 const Form =()=>{
 
-let [formData, setFormData] = useState("");
+// let [formData, setFormData] = useState("");
 const onSubmit =(data) => {
 console.log(data);
-  setFormData(data);
+//   setFormData(data);
 }
+// useEffect(()=>{
+//     axios.post("http://localhost:8090/api",formData).then(()=>console.log("data posted succusfully")).catch((err)=>{console.log(err)});
+//     console.log(formData);
+// },[formData]);
 
 const schema = yup.object({
     name: yup.string().required(),
@@ -42,7 +47,7 @@ const schema = yup.object({
                 Started in 2008, providing technology solutions based in the Netherlands, founders of Rubixe™ have gained expertise in cutting-edge technology through delivering several smart city solutions for European Commission (EC) projects.<br/>
 </div>
             <div>
-                <img className='image' src='https://rubixe.com/assets/img/aboutus/about-us.jpg'/>
+                <img className='image' src='https://rubixe.com/assets/img/aboutus/about-us.jpg' alt="img"/>
             </div>
 
         </div>
@@ -57,23 +62,23 @@ const schema = yup.object({
         <div className='foursection'>
                <div className='card'>
                 <div style={{backgroundColor:"blue", height:"40px",borderRadius:"20px"}}></div>
-                    <img className="cardimages" src='https://tse3.explicit.bing.net/th?id=OIP.HWL8Pdwo4TgdmeCU1ZnE5gHaE8&pid=Api&P=0'/>
+                    <img className="cardimages" src='https://tse3.explicit.bing.net/th?id=OIP.HWL8Pdwo4TgdmeCU1ZnE5gHaE8&pid=Api&P=0'alt="img"/>
                     <span style={{color:"black",textAlign:"center" ,marginTop:"40px",fontWeight:"bold"}}>Introducing AI   to children in an age  appropriate   manner.</span>
                </div>
                <div className='card'>
                 <div style={{backgroundColor:"blue", height:"40px", marginTop:"300px",borderRadius:"20px"}}></div>
                 <span style={{color:"black",textAlign:"center" ,marginTop:"0px",fontWeight:"bold", position:"relative",bottom:"284px"}}>Gain awarness   on AI and build an interactive story around it</span>
-                <img style={{marginTop:"-224px"}}className="cardimages" src='https://tse3.mm.bing.net/th?id=OIP.sBjipUfbQtANUbCDmpXX-wHaE8&pid=Api&P=0'/>
+                <img style={{marginTop:"-224px"}}className="cardimages" src='https://tse3.mm.bing.net/th?id=OIP.sBjipUfbQtANUbCDmpXX-wHaE8&pid=Api&P=0' alt="img"/>
                </div>
                <div className='card'>
                 <div style={{backgroundColor:"blue", height:"40px",borderRadius:"20px"}}></div>
-                <img className="cardimages" src='https://tse4.mm.bing.net/th?id=OIP.-M1rVyipgT4LLylu6XvMoQHaE8&pid=Api&P=0'/>
+                <img className="cardimages" src='https://tse4.mm.bing.net/th?id=OIP.-M1rVyipgT4LLylu6XvMoQHaE8&pid=Api&P=0' alt="img"/>
                     <span style={{color:"black",textAlign:"center" ,marginTop:"40px",fontWeight:"bold"}}>Acquire proramming skills in a user-friendly format</span>
                </div>
                <div className='card'>
                 <div style={{backgroundColor:"blue", height:"40px",marginTop:"300px",borderRadius:"20px"}}></div>
                 <span style={{color:"black",textAlign:"center" ,marginTop:"0px",fontWeight:"bold", position:"relative",bottom:"284px"}}>Exposure to mini projects on diverse topics</span>
-                <img style={{marginTop:"-224px"}}className="cardimages" src='https://tse4.mm.bing.net/th?id=OIP.HZ9w8YiyROitCGC910VXAQHaE7&pid=Api&P=0'/>
+                <img style={{marginTop:"-224px"}}className="cardimages" src='https://tse4.mm.bing.net/th?id=OIP.HZ9w8YiyROitCGC910VXAQHaE7&pid=Api&P=0'alt="img"/>
                </div>
         </div><br/>
         <div className='Form'>
