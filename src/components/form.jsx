@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
-import { useEffect } from 'react';
 import axios from "axios";
 
 
@@ -13,10 +12,6 @@ const onSubmit =(data) => {
 console.log(data);
   setFormData(data);
 }
-useEffect(()=>{
-    axios.post("http://localhost:8090/api",formData).then(()=>console.log("data posted succusfully")).catch((err)=>{console.log(err)});
-    console.log(formData);
-},[formData]);
 
 const schema = yup.object({
     name: yup.string().required(),
