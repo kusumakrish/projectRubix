@@ -9,16 +9,16 @@ const Footer = () =>{
                         
                         <div class="col-md-5 col-sm-12 col-xs-12">
                             <h6 class="font-montserrat text-uppercase color-dark">About Us</h6>
-                            <p>Rubixe™ is a global technology company specializing in disruptive technologies – Artificial Intelligence (AI), Machine Learning, Robotic Process Automation (RPA), BlockChain and Internet of Things (IoT). Rubixe mission to enable businesses to leverage the full potential of disruptive technologies to stay competitive in the market.</p>
+                            <p>Rubixe™ is p global technology company specializing in disruptive technologies – Artificial Intelligence (AI), Machine Learning, Robotic Process Automation (RPA), BlockChain and Internet of Things (IoT). Rubixe mission to enable businesses to leverage the full potential of disruptive technologies to stay competitive in the market.</p>
                         </div>
                         
                         <div class="col-md-2 col-sm-3 col-xs-4">
                             <h6 class="font-montserrat text-uppercase color-dark">Menus</h6>
                             <ul class="no-icon-list">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Career</a></li>
+                                <li><p >Home</p></li>
+                                <li><p>Services</p></li>
+                                <li><p >Products</p></li>
+                                <li><p >Career</p></li>
                                 
                             </ul>
                         </div>
@@ -27,8 +27,8 @@ const Footer = () =>{
                             <h6 class="font-montserrat text-uppercase color-dark">Learn more</h6>
                             <ul class="no-icon-list">
                                 
-                               <li><a href="#">About</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                               <li><p >About</p></li>
+                                <li><p>Contact Us</p></li>
                                                             </ul>
                         </div>
                         
@@ -49,8 +49,8 @@ const Footer = () =>{
 							<h6 class="font-montserrat text-uppercase color-dark">Social Media</h6>
                             <div class="social social-two">
                                 
-                                <a href="https://www.facebook.com/Rubixe.Official/" target="_blank"><i class="fa fa-facebook color-primary"></i></a>
-                                <a href="https://www.linkedin.com/company/rubixe" target="_blank"><i class="fa fa-linkedin color-blue"></i></a>
+                                <p ><i class="fa fa-facebook color-primary"></i></p>
+                                <p ><i class="fa fa-linkedin color-blue"></i></p>
                             </div>
                         </div>
                         
@@ -63,7 +63,7 @@ const Footer = () =>{
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-sm-8 col-xs-8 pull-left">
-                            <p>© Copyright 2017 - 2022   |   Rubixe is a brand of THINK AHEAD INNOVATIONS PVT. LTD.   |   All Rights Reserved </p>
+                            <p>© Copyright 2017 - 2022   |   Rubixe is p brand of THINK AHEAD INNOVATIONS PVT. LTD.   |   All Rights Reserved </p>
                         </div>
                        
 
