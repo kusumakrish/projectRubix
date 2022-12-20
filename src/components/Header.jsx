@@ -3,7 +3,7 @@ const Header = () => {
     return(
         <div>
             <div className='header'>
-            <img src='https://rubixe.com/assets/img/logo/white-rubixe-logo.png'/>
+            <img src='https://rubixe.com/assets/img/logo/white-rubixe-logo.png' alt="img"/>
             <div className="nav">
             <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
